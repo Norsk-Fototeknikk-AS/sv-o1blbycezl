@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="nb">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Målebenk – stereoskopisk viewer</title>
+    <script type="module" crossorigin src="/sv-o1blbycezl/assets/bench-C8EucrAI.js"></script>
+    <link rel="modulepreload" crossorigin href="/sv-o1blbycezl/assets/webgpuSource-iOLngd14.js">
+    <link rel="stylesheet" crossorigin href="/sv-o1blbycezl/assets/bench-CX3PMOHD.css">
+  </head>
+  <body>
+    <header class="top">
+      <div>
+        <h1>Målebenk</h1>
+        <p class="sub">Dybdekilder målt mot Middlebury-fasit (kvart oppløsning)</p>
+      </div>
+      <a href="./">← Viewer</a>
+    </header>
+    <main class="bench">
+      <p class="explain">
+        <strong>bad-2.0</strong>: andel ikke-okkluderte piksler med feil over 2 px (lavere er bedre).
+        <strong>PSNR</strong>: høyre bilde syntetisert fra bare venstre bilde ved t = 1 med kartet (høyere er bedre).
+        SGBM-raden er beregnet offline i Python med samme fasit.
+      </p>
+      <div class="actions">
+        <button id="run" type="button">Kjør målinger</button>
+        <button id="export" type="button" disabled>Eksporter JSON</button>
+        <span id="state" class="state"></span>
+      </div>
+      <table id="results">
+        <thead>
+          <tr><th>Par</th><th>Kilde</th><th>bad-2.0</th><th>MAE (px)</th><th>Tetthet</th><th>Tid (ms)</th><th>PSNR (dB)</th><th>Merknad</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </main>
+  </body>
+</html>

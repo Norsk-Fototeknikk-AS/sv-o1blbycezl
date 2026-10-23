@@ -1,0 +1,30 @@
+{
+  "id": "mb-adirondack",
+  "title": "Middlebury: Adirondack",
+  "credit": "Scharstein m.fl., GCPR 2014 – Middlebury Stereo Datasets",
+  "license": "Fri bruk til forskning med kreditering",
+  "sourceUrl": "https://vision.middlebury.edu/stereo/data/scenes2014/",
+  "width": 718,
+  "height": 496,
+  "left": "left.png",
+  "right": "right.png",
+  "disparity": {
+    "left": "disp_l.i16",
+    "right": "disp_r.i16",
+    "width": 359,
+    "height": 248,
+    "scale": 16,
+    "min": 12.875,
+    "max": 54.25,
+    "median": 33.75,
+    "algorithm": "opencv-sgbm-wls@1"
+  },
+  "groundTruth": {
+    "left": "gt_disp_l.i16",
+    "width": 718,
+    "height": 496,
+    "scale": 16
+  },
+  "defaultConvergence": 28.625,
+  "swapSuspected": false
+}

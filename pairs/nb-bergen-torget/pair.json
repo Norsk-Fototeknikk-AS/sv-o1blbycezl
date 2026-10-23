@@ -1,0 +1,25 @@
+{
+  "id": "nb-bergen-torget",
+  "title": "Blomster- og fisketorget i Bergen",
+  "credit": "Underwood & Underwood, 1905. Nasjonalbiblioteket, via Wikimedia Commons",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:(49)_-_650_-_In_the_great_market_place_of_busy_Bergen,_from_the_flower_market_N._to_the_fish_market,_Norway_stereofotografi_-_no-nb_digifoto_20160624_00008_bldsa_stereo_0273.jpg",
+  "width": 1418,
+  "height": 1261,
+  "left": "left.jpg",
+  "right": "right.jpg",
+  "disparity": {
+    "left": "disp_l.i16",
+    "right": "disp_r.i16",
+    "width": 709,
+    "height": 630,
+    "scale": 16,
+    "min": 10.375,
+    "max": 64.5,
+    "median": 38.0,
+    "algorithm": "opencv-sgbm-wls@1"
+  },
+  "groundTruth": null,
+  "defaultConvergence": 38.625,
+  "swapSuspected": false
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "nb-karl-johan",
+    "title": "Karl Johans gate mot Slottet, Kristiania",
+    "kind": "stereograph"
+  },
+  {
+    "id": "nb-bergen-torget",
+    "title": "Blomster- og fisketorget i Bergen",
+    "kind": "stereograph"
+  },
+  {
+    "id": "nb-ballsalen",
+    "title": "Ballsalen på Slottet, Kristiania",
+    "kind": "stereograph"
+  },
+  {
+    "id": "nb-brudefolge",
+    "title": "Brudefølge ved husdøren, Briksdal i Nordfjord",
+    "kind": "stereograph"
+  },
+  {
+    "id": "nb-kvern",
+    "title": "Kvern og slipestein ved Stalheim, Nærøydalen",
+    "kind": "stereograph"
+  },
+  {
+    "id": "nb-vikingskip",
+    "title": "Vikingskipet, Kristiania",
+    "kind": "stereograph"
+  },
+  {
+    "id": "mb-adirondack",
+    "title": "Middlebury: Adirondack",
+    "kind": "middlebury"
+  },
+  {
+    "id": "mb-motorcycle",
+    "title": "Middlebury: Motorcycle",
+    "kind": "middlebury"
+  },
+  {
+    "id": "mb-piano",
+    "title": "Middlebury: Piano",
+    "kind": "middlebury"
+  },
+  {
+    "id": "mb-teddy",
+    "title": "Middlebury: Teddy",
+    "kind": "middlebury"
+  },
+  {
+    "id": "mb-teddy-byttet",
+    "title": "Middlebury: Teddy (V/H byttet med vilje)",
+    "kind": "middlebury"
+  }
+]

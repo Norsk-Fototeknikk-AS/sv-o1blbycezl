@@ -1,0 +1,70 @@
+{
+  "mb-adirondack": {
+    "bad2": 0.3413479579470586,
+    "mae": 1.885671854019165,
+    "density": 0.899515246959528,
+    "pixels": 325114,
+    "swapControl": {
+      "normal": false,
+      "swapped": true
+    },
+    "swap": {
+      "low": 1805,
+      "high": 803,
+      "fraction_high": 0.307898773006135,
+      "ground_corr": 0.8729912466897759,
+      "method": "occlusion"
+    }
+  },
+  "mb-motorcycle": {
+    "bad2": 0.293398479368681,
+    "mae": 2.046215772628784,
+    "density": 0.9042867261296611,
+    "pixels": 319078,
+    "swapControl": {
+      "normal": false,
+      "swapped": true
+    },
+    "swap": {
+      "low": 975,
+      "high": 538,
+      "fraction_high": 0.3555849306014541,
+      "ground_corr": 0.7233510245762992,
+      "method": "occlusion"
+    }
+  },
+  "mb-piano": {
+    "bad2": 0.4495397239023793,
+    "mae": 2.6412055492401123,
+    "density": 0.9166570279703627,
+    "pixels": 293954,
+    "swapControl": {
+      "normal": false,
+      "swapped": true
+    },
+    "swap": {
+      "low": 447,
+      "high": 297,
+      "fraction_high": 0.39919354838709675,
+      "ground_corr": 0.7394590183857357,
+      "method": "occlusion"
+    }
+  },
+  "mb-teddy": {
+    "bad2": 0.1937723571696249,
+    "mae": 0.9150556921958923,
+    "density": 0.910475930909958,
+    "pixels": 146765,
+    "swapControl": {
+      "normal": false,
+      "swapped": true
+    },
+    "swap": {
+      "low": 474,
+      "high": 85,
+      "fraction_high": 0.1520572450805009,
+      "ground_corr": 0.9784077604336798,
+      "method": "occlusion"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "mb-teddy",
+  "title": "Middlebury: Teddy",
+  "credit": "Scharstein m.fl., GCPR 2014 – Middlebury Stereo Datasets",
+  "license": "Fri bruk til forskning med kreditering",
+  "sourceUrl": "https://vision.middlebury.edu/stereo/data/scenes2014/",
+  "width": 450,
+  "height": 375,
+  "left": "left.png",
+  "right": "right.png",
+  "disparity": {
+    "left": "disp_l.i16",
+    "right": "disp_r.i16",
+    "width": 225,
+    "height": 187,
+    "scale": 16,
+    "min": 15.625,
+    "max": 44.0,
+    "median": 29.875,
+    "algorithm": "opencv-sgbm-wls@1"
+  },
+  "groundTruth": {
+    "left": "gt_disp_l.i16",
+    "width": 450,
+    "height": 375,
+    "scale": 16
+  },
+  "defaultConvergence": 19.375,
+  "swapSuspected": false
+}

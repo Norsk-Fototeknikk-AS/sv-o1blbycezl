@@ -1,0 +1,25 @@
+{
+  "id": "mb-teddy-byttet",
+  "title": "Middlebury: Teddy (V/H byttet med vilje)",
+  "credit": "Scharstein m.fl., GCPR 2014 – Middlebury Stereo Datasets",
+  "license": "Fri bruk til forskning med kreditering",
+  "sourceUrl": "https://vision.middlebury.edu/stereo/data/scenes2014/",
+  "width": 450,
+  "height": 375,
+  "left": "left.png",
+  "right": "right.png",
+  "disparity": {
+    "left": "disp_l.i16",
+    "right": "disp_r.i16",
+    "width": 225,
+    "height": 187,
+    "scale": 16,
+    "min": -45.25,
+    "max": -15.5,
+    "median": -30.25,
+    "algorithm": "opencv-sgbm-wls@1"
+  },
+  "groundTruth": null,
+  "defaultConvergence": -29.875,
+  "swapSuspected": true
+}

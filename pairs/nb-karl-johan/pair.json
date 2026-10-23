@@ -1,0 +1,25 @@
+{
+  "id": "nb-karl-johan",
+  "title": "Karl Johans gate mot Slottet, Kristiania",
+  "credit": "Underwood & Underwood, 1905. Nasjonalbiblioteket, via Wikimedia Commons",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:(5)_-_601_-_Karl_Johan_Street,_W._N._W._to_the_Royal_Palace,_Christiania,_Norway_stereofotografi_-_no-nb_digifoto_20160629_00008_bldsa_stereo_0217.jpg",
+  "width": 1423,
+  "height": 1258,
+  "left": "left.jpg",
+  "right": "right.jpg",
+  "disparity": {
+    "left": "disp_l.i16",
+    "right": "disp_r.i16",
+    "width": 711,
+    "height": 629,
+    "scale": 16,
+    "min": 2.25,
+    "max": 14.0,
+    "median": 9.125,
+    "algorithm": "opencv-sgbm-wls@1"
+  },
+  "groundTruth": null,
+  "defaultConvergence": 10.125,
+  "swapSuspected": false
+}

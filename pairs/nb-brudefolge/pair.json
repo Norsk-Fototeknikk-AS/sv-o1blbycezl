@@ -1,0 +1,25 @@
+{
+  "id": "nb-brudefolge",
+  "title": "Brudefølge ved husdøren, Briksdal i Nordfjord",
+  "credit": "Underwood & Underwood, 1906. Nasjonalbiblioteket, via Wikimedia Commons",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:(71)_-_665_-_A_Nordfjord_bride_and_groom_with_guests_and_parents_at_their_house_door,_Brigsdal,_Norway_stereofotografi_-_no-nb_digifoto_20160622_00186_bldsa_stereo_0151.jpg",
+  "width": 1419,
+  "height": 1266,
+  "left": "left.jpg",
+  "right": "right.jpg",
+  "disparity": {
+    "left": "disp_l.i16",
+    "right": "disp_r.i16",
+    "width": 709,
+    "height": 633,
+    "scale": 16,
+    "min": -41.875,
+    "max": 23.0,
+    "median": -1.75,
+    "algorithm": "opencv-sgbm-wls@1"
+  },
+  "groundTruth": null,
+  "defaultConvergence": 1.125,
+  "swapSuspected": false
+}

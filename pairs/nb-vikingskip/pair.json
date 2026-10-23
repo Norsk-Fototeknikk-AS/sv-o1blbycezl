@@ -1,0 +1,25 @@
+{
+  "id": "nb-vikingskip",
+  "title": "Vikingskipet, Kristiania",
+  "credit": "Underwood & Underwood, 1905. Nasjonalbiblioteket, via Wikimedia Commons",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:(7)_608_Old_Viking_ship_-_explorer_of_northern_seas_and_burial_boat_of_Norse_chief,_Christiania,_Norway_stereofotografi_-_no-nb_digifoto_20151202_00253_blds_07752.jpg",
+  "width": 1409,
+  "height": 1208,
+  "left": "left.jpg",
+  "right": "right.jpg",
+  "disparity": {
+    "left": "disp_l.i16",
+    "right": "disp_r.i16",
+    "width": 704,
+    "height": 604,
+    "scale": 16,
+    "min": 30.875,
+    "max": 90.625,
+    "median": 45.875,
+    "algorithm": "opencv-sgbm-wls@1"
+  },
+  "groundTruth": null,
+  "defaultConvergence": 59.375,
+  "swapSuspected": false
+}

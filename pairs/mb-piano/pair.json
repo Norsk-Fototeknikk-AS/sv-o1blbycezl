@@ -1,0 +1,30 @@
+{
+  "id": "mb-piano",
+  "title": "Middlebury: Piano",
+  "credit": "Scharstein m.fl., GCPR 2014 – Middlebury Stereo Datasets",
+  "license": "Fri bruk til forskning med kreditering",
+  "sourceUrl": "https://vision.middlebury.edu/stereo/data/scenes2014/",
+  "width": 707,
+  "height": 481,
+  "left": "left.png",
+  "right": "right.png",
+  "disparity": {
+    "left": "disp_l.i16",
+    "right": "disp_r.i16",
+    "width": 353,
+    "height": 240,
+    "scale": 16,
+    "min": 12.5,
+    "max": 41.875,
+    "median": 26.125,
+    "algorithm": "opencv-sgbm-wls@1"
+  },
+  "groundTruth": {
+    "left": "gt_disp_l.i16",
+    "width": 707,
+    "height": 481,
+    "scale": 16
+  },
+  "defaultConvergence": 23.5,
+  "swapSuspected": false
+}

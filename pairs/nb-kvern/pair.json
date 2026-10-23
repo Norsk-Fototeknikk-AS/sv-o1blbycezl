@@ -1,0 +1,25 @@
+{
+  "id": "nb-kvern",
+  "title": "Kvern og slipestein ved Stalheim, Nærøydalen",
+  "credit": "Underwood & Underwood, 1906. Nasjonalbiblioteket, via Wikimedia Commons",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:(54)_-_654_-_A_log-built_mill_and_a_water-wheel_grindstone,_on_Stalheim%27s_river,_Naerodal,_Norway_stereofotografi_-_no-nb_digifoto_20160629_00223_bldsa_stereo_0207.jpg",
+  "width": 1428,
+  "height": 1279,
+  "left": "left.jpg",
+  "right": "right.jpg",
+  "disparity": {
+    "left": "disp_l.i16",
+    "right": "disp_r.i16",
+    "width": 714,
+    "height": 639,
+    "scale": 16,
+    "min": 2.0,
+    "max": 29.875,
+    "median": 23.375,
+    "algorithm": "opencv-sgbm-wls@1"
+  },
+  "groundTruth": null,
+  "defaultConvergence": 24.125,
+  "swapSuspected": false
+}

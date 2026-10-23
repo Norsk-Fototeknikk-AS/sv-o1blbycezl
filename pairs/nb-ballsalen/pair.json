@@ -1,0 +1,25 @@
+{
+  "id": "nb-ballsalen",
+  "title": "Ballsalen på Slottet, Kristiania",
+  "credit": "Underwood & Underwood, 1897. Nasjonalbiblioteket, via Wikimedia Commons",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:(9)_-_604_-_The_great_ball-room_at_the_Palace,_Christiania,_Norway_stereofotografi_-_no-nb_digifoto_20160624_00012_bldsa_stereo_0167.jpg",
+  "width": 1434,
+  "height": 1247,
+  "left": "left.jpg",
+  "right": "right.jpg",
+  "disparity": {
+    "left": "disp_l.i16",
+    "right": "disp_r.i16",
+    "width": 717,
+    "height": 623,
+    "scale": 16,
+    "min": 30.25,
+    "max": 58.875,
+    "median": 36.0,
+    "algorithm": "opencv-sgbm-wls@1"
+  },
+  "groundTruth": null,
+  "defaultConvergence": 35.375,
+  "swapSuspected": false
+}

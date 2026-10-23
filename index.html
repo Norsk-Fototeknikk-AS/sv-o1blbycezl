@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="nb">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Stereoskopisk viewer – prototype</title>
+    <script type="module" crossorigin src="/sv-o1blbycezl/assets/main-qo6ZyXbH.js"></script>
+    <link rel="modulepreload" crossorigin href="/sv-o1blbycezl/assets/webgpuSource-iOLngd14.js">
+    <link rel="stylesheet" crossorigin href="/sv-o1blbycezl/assets/main-DlhHfzXt.css">
+  </head>
+  <body>
+    <header class="top">
+      <div>
+        <h1>Stereoskopisk viewer</h1>
+        <p class="sub">Prototype for digital visning av historiske stereobilder</p>
+      </div>
+      <a class="bench-link" href="./bench.html">Målebenk →</a>
+    </header>
+    <main class="layout">
+      <section class="stage">
+        <stereo-viewer id="viewer"></stereo-viewer>
+        <p class="help" id="help"></p>
+      </section>
+      <aside class="side">
+        <section class="info" id="info" aria-live="polite"></section>
+        <section id="panel"></section>
+      </aside>
+      <nav class="gallery" id="gallery" aria-label="Bildepar"></nav>
+    </main>
+  </body>
+</html>
